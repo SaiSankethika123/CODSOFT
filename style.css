@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+} 
+.navbar{
+    height:60px;
+    
+    background-image: linear-gradient(#E14D2A,#F79327,wheat);
+   
+    color: white;
+    display: flex;
+}
+
+.nav-logo{
+    height:50px;
+    width: 100px;
+}
+.train{
+    color: #0A1931;
+   margin-right: 15px;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+
+.nav-as{
+    align-items: center;
+    display: flex;
+    color: #86A789;
+    font-size: 26px;
+    padding-left: 0px;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: left;
+    padding-left: 0px;
+}
+
+.nav-address{
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+    gap: 100px;
+    margin-left: 100px;
+}
+
+.icons1:hover{
+    border: 2px solid white;
+}
+
+
+.ticket:hover{
+    border: 2px solid white;
+}
+
+.pri:hover{
+    border: 2px solid white;
+}
+
+.offer:hover{
+    border: 2px solid white;
+}
+
+.price:hover{
+    border: 2px solid white;
+}
+
+.icons1{
+    display: flex;
+    align-items: center;
+} 
+.photo{
+    position: relative;
+    background-image: url(boris-stromar-qoCZmnwmwe0-unsplash.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    text-align: center;
+    justify-content: center;
+    animation: change 10s infinite ease-in-out;
+    
+}
+.photo::after {
+         content: '';
+         position: absolute;
+         width: 100%;
+         height: 100%;
+         top:0;
+        left: 0;
+        }
+               
+.container1{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.container{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px; 
+    
+} 
+
+ form input{
+        flex:1;
+        border:none;
+        outline: none;
+        background-color:whitesmoke;
+        border-color: black;
+        color: white;
+        
+    } 
+.form button{
+        background: tomato;
+        padding: 10px; 
+        border:none; 
+        outline: #fff; 
+        letter-spacing:1px;
+        cursor: pointer;
+     }
+.name{
+        font-size: 50px;
+        color: wheat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative; 
+        top: 250px; 
+
+    } 
+.para{
+        font-size: 30px;
+        color: gray;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        margin-bottom: 30px;
+        margin-left: 10%;
+        position: relative;
+        top: 270px;
+
+    }
+
+    @keyframes change{
+        0%
+        {
+            background-image: url(alex-heuvink-Yk7U1aYCPio-unsplash.jpg);
+        }
+        20%
+        {
+            background-image: url(balazs-busznyak-El5zuQAtfeo-unsplash.jpg);
+        }
+        40%
+        {
+            background-image: url(boris-stromar-qoCZmnwmwe0-unsplash.jpg);
+        }
+        60%
+        {
+            background-image: url(charles-forerunner-gapYVvUg1M8-unsplash.jpg);
+        }
+        80%
+        {
+            background-image: url(marissa-beletti-fcRVLXKikGY-unsplash.jpg);
+        }
+        100%
+        {
+            background-image: url(ivan-calderon-q0w3mGlmfQs-unsplash.jpg);
+        }
+    }
+
+    .footer{
+        margin-top: 15px;
+    }
+    .footer{
+        background-color: #37475a;
+        color: white;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.85rem;
+    }
+    
+    .footer1{
+        background-color: #222f3d;
+        color: white;
+        height: 200px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    ul {
+        margin-top: 20px;
+    }
+    
+    ul a {
+        display: block;
+        font-size: 0.85rem;
+        margin-top: 10px;
+        color: #dddddd;
+    }
+    
+    .foot-panel3 {
+        background-color: #222f3d;
+        color: white;
+        border-top: 0.5px solid white;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logo {
+        background-size: cover;
+        height: 50px;
+        width:100px ;
+    }
+    
+    .foot-panel4 {
+        background-color: #0f1111;
+        color: white;
+        height: 100px;
+        font: size 0.7rem;
+        text-align: center;
+    }
+    
+    .pages{
+        padding-top: 25px;
+    }
+    
+    .copyright{
+       padding-top: 5px;
+    }
+    
